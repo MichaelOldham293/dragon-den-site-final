@@ -4,6 +4,9 @@
    
    Author:  Michael Oldham 
    Date:    04-06-26 
+   
+  
+
 */
 body {
     margin: 0;
@@ -212,4 +215,39 @@ main {
         width: 90%;
         max-width: 320px;
     }
+.contact-form {
+    text-align: center;
+    padding: 30px 20px;
+	
+.contact-form {
+    text-align: center;
+    padding: 50px 20px;
+
+.contact-form form {
+    display: inline-block;
+    text-align: left;
+
+.contact-form p {
+    margin: 15px 0;
+
+.contact-form input,
+.contact-form textarea {
+    width: 300px;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: none;
+    background-color: #1a1a1a;
+    color: white;
+
+.contact-form input[type="submit"] {
+    background-color: #a30000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+
+.contact-form input[type="submit"]:hover {
+    background-color: #d10000;
 }

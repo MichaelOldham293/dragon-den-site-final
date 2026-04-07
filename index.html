@@ -17,11 +17,13 @@
 </head>
 <body>
 
-    <header class="site-header">
+<header class="site-header">
+    <a href="index.html">
         <img src="logo.jpg" alt="Dragon's Den Gaming Café logo" class="logo">
-        <h1>Dragon's Den Gaming Café</h1>
-        <p class="tagline">Tabletop battles, arcade action, and custom collectibles</p>
-    </header>
+    </a>
+    <h1>Dragon's Den Gaming Café</h1>
+    <p class="tagline">Tabletop battles, arcade action, and custom collectibles</p>
+</header>
 
     <nav class="main-nav">
     <a href="index.html">Home</a>
@@ -87,6 +89,29 @@
                 </article>
             </div>
         </section>
+		<section class="contact-form">
+    <h2>Reserve a Game Room</h2>
+    <form>
+        <p>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name">
+        </p>
+
+        <p>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email">
+        </p>
+
+        <p>
+            <label for="message">Request</label><br>
+            <textarea id="message" name="message" rows="4" cols="30"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Submit">
+        </p>
+    </form>
+</section>
     </main>
 
 <footer class="footer" id="contact">
