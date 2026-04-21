@@ -18,7 +18,8 @@ body {
 }
 
 .logo {
-    width: 220px;
+    width: 500px;
+	heigt: auto;
     max-width: 100%;
     display: block;
     margin: 0 auto 15px;
